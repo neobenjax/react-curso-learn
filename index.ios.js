@@ -12,11 +12,15 @@ import {
   View
 } from 'react-native';
 
-export default class CursoReactAplicado extends Component {
+
+const Login = require('./src/componentes/loginView');
+const Dashboard = require('./src/componentes/dashboardView');
+
+class CursoReactAplicado extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Lol</Text>
+        <Login></Login>
       </View>
     );
   }
